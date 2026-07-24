@@ -68,16 +68,16 @@
   src: url('assets/fonts/Rubik-Bold.woff2') format('woff2');
 }
 :root {
---primary: #00F0FF;
-  --secondary: #00F0FF;
+--primary: #FF2E93;
+  --secondary: #FF2E93;
   --accent: #7B2CFF;
   --bg-light: #171126;
   --bg-dark: #171126;
-  --text-dark: #6a6674;
+  --text-dark: #6a6672;
   --text-light: #F4EEFF;
-  --text-muted: #6f6580;
+  --text-muted: #6e667b;
   --border-light: #D8C9F2;
-  --border-dark: #7B2CFF;
+  --border-dark: #FF2E93;
   --nav-bg: transparent;
   --nav-text: #F4EEFF;
   --nav-text-hover: #00F0FF;
@@ -98,13 +98,13 @@
   --spacing-element-gap: 16px;
   --transition-default: all 0.3s ease;
   --transition-hover: all 0.3s ease;
-  --primary-color: #00F0FF;
-  --secondary-color: #00F0FF;
+  --primary-color: #FF2E93;
+  --secondary-color: #FF2E93;
   --accent-color: #7B2CFF;
   --background-color: #171126;
   --surface-color: #F4EEFF;
-  --text-color: #6a6674;
-  --text-secondary-color: #6f6580;
+  --text-color: #6a6672;
+  --text-secondary-color: #6e667b;
 }
 
 *, *::before, *::after {
@@ -360,9 +360,9 @@ html:not([dir]) .whatsapp-float {
 .phone-header-btn { display: none; background: none; border: none; cursor: pointer; padding: 0.5rem; color: #F4EEFF; }
 .nav-menu { display: flex; list-style: none; gap: 2rem; margin: 0; padding: 0; }
 .nav-menu li a:not(.nav-cta-btn):not(.cta-button) { text-decoration: none; color: #F4EEFF; font-weight: 500; transition: color 0.3s; }
-.nav-menu li a:not(.nav-cta-btn):not(.cta-button):hover { color: #00F0FF; }
+.nav-menu li a:not(.nav-cta-btn):not(.cta-button):hover { color: #FF2E93; }
 .nav-cta-container { margin-left: auto; display: flex; align-items: center; }
-.nav-cta-btn { background: #00F0FF; color: #171126; padding: 0.75rem 1.5rem; border-radius: 6px; text-decoration: none; font-weight: 600; transition: opacity 0.3s; }
+.nav-cta-btn { background: #FF2E93; color: #171126; padding: 0.75rem 1.5rem; border-radius: 6px; text-decoration: none; font-weight: 600; transition: opacity 0.3s; }
 .nav-cta-btn:hover { opacity: 0.9; }
 @media (max-width: 768px) {
   /* Mobile logo sizing - max height 40px */
@@ -388,9 +388,9 @@ html:not([dir]) .whatsapp-float {
 .phone-header-btn { display: none; background: none; border: none; cursor: pointer; padding: 0.5rem; color: #F4EEFF; }
 .nav-menu { display: flex; list-style: none; gap: 2rem; margin: 0; padding: 0; }
 .nav-menu li a:not(.nav-cta-btn):not(.cta-button) { text-decoration: none; color: #F4EEFF; font-weight: 500; transition: color 0.3s; }
-.nav-menu li a:not(.nav-cta-btn):not(.cta-button):hover { color: #00F0FF; }
+.nav-menu li a:not(.nav-cta-btn):not(.cta-button):hover { color: #FF2E93; }
 .nav-cta-container { margin-left: auto; display: flex; align-items: center; }
-.nav-cta-btn { background: #00F0FF; color: #171126; padding: 0.75rem 1.5rem; border-radius: 6px; text-decoration: none; font-weight: 600; transition: opacity 0.3s; }
+.nav-cta-btn { background: #FF2E93; color: #171126; padding: 0.75rem 1.5rem; border-radius: 6px; text-decoration: none; font-weight: 600; transition: opacity 0.3s; }
 .nav-cta-btn:hover { opacity: 0.9; }
 @media (max-width: 768px) {
   /* Mobile logo sizing - max height 40px */
@@ -478,7 +478,7 @@ html:not([dir]) .whatsapp-float {
 .navbar a:focus-visible,
 .navbar button:focus-visible,
 .nav-menu a:focus-visible {
-  outline: 2px solid var(--primary-color, var(--primary, #00F0FF));
+  outline: 2px solid var(--primary-color, var(--primary, #FF2E93));
   outline-offset: 2px;
 }
 
@@ -2377,7 +2377,7 @@ main { flex: 1 0 auto; }
   width: 48px;
   height: 48px;
   margin-bottom: 16px;
-  color: #00F0FF;
+  color: #FF2E93;
   position: relative;
   z-index: 1;
   flex-shrink: 0;
@@ -2426,7 +2426,7 @@ main { flex: 1 0 auto; }
   font-family: 'Rubik', sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
-  color: #00F0FF;
+  color: #FF2E93;
   text-decoration: none;
   letter-spacing: 0.5px;
   transition: all 0.3s ease;
@@ -2436,7 +2436,7 @@ main { flex: 1 0 auto; }
 
 .index-services-section__cta-link:hover {
   color: #FFFFFF;
-  border-bottom-color: #00F0FF;
+  border-bottom-color: #FF2E93;
   text-shadow: 0 0 20px rgba(0,240,255,0.5);
 }
 
@@ -3538,7 +3538,7 @@ main { flex: 1 0 auto; }
 
 /* Submit Button */
 .index-contact-section__submit-btn {
-  background: linear-gradient(135deg, #00CCD9 0%, #00EFFE 100%);
+  background: linear-gradient(135deg, #FF087F 0%, #FF2E93 100%);
   color: #ffffff;
   padding: 16px 32px;
   border-radius: var(--radius-btn, 8px);
@@ -3561,7 +3561,7 @@ main { flex: 1 0 auto; }
 .index-contact-section__submit-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 16px 60px rgba(0, 0, 0, 0.7), 0 0 40px rgba(0, 212, 255, 0.15);
-  background: linear-gradient(135deg, #00EFFE 0%, #00CCD9 100%);
+  background: linear-gradient(135deg, #FF2E93 0%, #FF087F 100%);
 }
 
 .index-contact-section__submit-btn svg {
@@ -4329,9 +4329,9 @@ nav.navbar .sub-menu li a:hover { color: #00F0FF !important; background-color: r
   --cc-modal-bg: #ffffff;
   --cc-primary-color: #1f2937;
   --cc-secondary-color: #4b5563;
-  --cc-btn-primary-bg: #00F0FF;
+  --cc-btn-primary-bg: #FF2E93;
   --cc-btn-primary-color: #ffffff;
-  --cc-btn-primary-border: #00F0FF;
+  --cc-btn-primary-border: #FF2E93;
   --cc-btn-primary-hover-bg: #FF2E93;
   --cc-btn-primary-hover-border: #FF2E93;
   --cc-btn-primary-hover-color: #ffffff;
@@ -4347,7 +4347,7 @@ nav.navbar .sub-menu li a:hover { color: #00F0FF !important; background-color: r
   --cc-btn-secondary-hover-bg: #e5e7eb;
   --cc-btn-secondary-hover-color: #111827;
   --cc-btn-secondary-hover-border: #d1d5db;
-  --cc-toggle-on-bg: #00F0FF;
+  --cc-toggle-on-bg: #FF2E93;
 }
 
 #cc-main,
@@ -4460,7 +4460,7 @@ nav.navbar .sub-menu li a:hover { color: #00F0FF !important; background-color: r
  * defaults for the preferences modal's two secondary pills). */
 #zappy-cookie-banner .zappy-cookie-banner__button--customize {
   background-color: transparent !important;
-  color: #00F0FF !important;
+  color: #FF2E93 !important;
   border: none !important;
   padding: 0 8px !important;
   height: 32px !important;
@@ -4852,6 +4852,8 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 ._access-icon {
   display: flex !important;
 }
+
+
 /* === BUTTON TEXT OVERRIDES START === */
 .btn-secondary,
 .btn--secondary,
@@ -4860,6 +4862,48 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 .navbar .nav-cta-btn,
 .nav-cta-btn { color: #FFFFFF !important; }
 /* === BUTTON TEXT OVERRIDES END === */
+
+
+.index-hero-section__cta--primary,
+.nav-cta-btn,
+.index-services-section__cta-link,
+.index-contact-section__submit-btn {
+  background: linear-gradient(135deg, var(--primary-color, var(--primary, #FF2E93)) 0%, var(--secondary-color, var(--secondary, #00F0FF)) 100%) !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+.index-hero-section__cta--secondary {
+  background: transparent !important;
+  border: 2px solid var(--primary-color, var(--primary, #FF2E93)) !important;
+  color: var(--primary-color, var(--primary, #FF2E93)) !important;
+}
+
+.index-hero-section__cta--secondary:hover {
+  background: linear-gradient(135deg, var(--primary-color, var(--primary, #FF2E93)), var(--secondary-color, var(--secondary, #00F0FF))) !important;
+  border-color: transparent !important;
+  color: #fff !important;
+}
+
+.index-hero-section__cta--primary:hover,
+.nav-cta-btn:hover,
+.index-services-section__cta-link:hover,
+.index-contact-section__submit-btn:hover {
+  background: linear-gradient(135deg, var(--secondary-color, var(--secondary, #00F0FF)) 0%, var(--primary-color, var(--primary, #FF2E93)) 100%) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(255,46,147,0.4);
+}
+
+@keyframes zappy-fade-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes zappy-slide-up { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes zappy-slide-left { from { opacity: 0; transform: translateX(-30px); } to { opacity: 1; transform: translateX(0); } }
+@keyframes zappy-slide-right { from { opacity: 0; transform: translateX(30px); } to { opacity: 1; transform: translateX(0); } }
+@keyframes zappy-zoom-in { from { opacity: 0; transform: scale(0.9); } to { opacity: 1; transform: scale(1); } }
+@keyframes zappy-bounce { 0% { opacity: 0; transform: translateY(30px); } 60% { opacity: 1; transform: translateY(-5px); } 100% { transform: translateY(0); } }
+@keyframes zappy-flip { from { opacity: 0; transform: perspective(400px) rotateY(90deg); } to { opacity: 1; transform: perspective(400px) rotateY(0); } }
+@keyframes zappy-rotate-in { from { opacity: 0; transform: rotate(-10deg) scale(0.95); } to { opacity: 1; transform: rotate(0) scale(1); } }
+[data-zappy-animate] { opacity: 0; }
+[data-zappy-animate].zappy-animated { opacity: 1; }
 
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
