@@ -1,0 +1,70 @@
+# YBM Studio — Generative Engine Optimization Map
+
+> YBM Studio is a recording studio with a bold, vibrant identity built around neon cyan and pink tones. The brand carries an energetic, modern atmosphere that reflects creativity and sonic excellence, with a visual language inspired by neon-lit urban aesthetics — suggesting a cutting-edge space where music comes to life.
+
+---
+
+## Pages
+
+### בית
+https://ybm-studio-689cd30c.zappy5.app
+אולפן הקלטות בתל אביב עם אווירת ניאון ורוד-ציאן שמפיחה חיים במוזיקה שלך. ציוד מתקדם, יחס אישי וחוויית הקלטה בלתי נשכחת — בואו ליצור את הצליל הבא שלכם עוד היום.
+
+### תודה - YBM Studio
+https://ybm-studio-689cd30c.zappy5.app/thank-you
+YBM Studio - תודה - YBM Studio
+
+## Legal & Policy
+
+### Privacy Policy
+https://ybm-studio-689cd30c.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://ybm-studio-689cd30c.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://ybm-studio-689cd30c.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://ybm-studio-689cd30c.zappy5.app
+- Endpoint: https://ybm-studio-689cd30c.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About YBM Studio
+YBM Studio is a recording studio with a bold, vibrant identity built around neon cyan and pink tones. The brand carries an energetic, modern atmosphere that reflects creativity and sonic excellence, with a visual language inspired by neon-lit urban aesthetics — suggesting a cutting-edge space where music comes to life.
+
+## Target Audience
+- מוזיקאים עצמאיים
+- יוצרי פודקאסטים
+- קרייני דיבוב
+
+## Industry
+Recording Studio
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://ybm-studio-689cd30c.zappy5.app/sitemap.xml
+- Robots: https://ybm-studio-689cd30c.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://ybm-studio-689cd30c.zappy5.app/llms-full.txt
