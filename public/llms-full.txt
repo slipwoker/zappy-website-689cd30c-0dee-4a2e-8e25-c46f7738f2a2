@@ -2,13 +2,13 @@
 
 YBM Studio is a recording studio with a bold, vibrant identity built around neon cyan and pink tones. The brand carries an energetic, modern atmosphere that reflects creativity and sonic excellence, with a visual language inspired by neon-lit urban aesthetics — suggesting a cutting-edge space where music comes to life.
 
-Source: https://ybm-studio-689cd30c.zappy5.app
+Source: https://example.com
 
 ---
 
 ## הקלטת פודקאסטים בצליל מושלם — YBM Studio
 
-URL: https://ybm-studio-689cd30c.zappy5.app
+URL: https://example.com
 Description: אולפן הקלטות בתל אביב עם אווירת ניאון ורוד-ציאן שמפיחה חיים במוזיקה שלך. ציוד מתקדם, יחס אישי וחוויית הקלטה בלתי נשכחת — בואו ליצור את הצליל הבא שלכם עוד היום.
 
 הקלטת פודקאסטים בצליל מושלם — YBM Studio
@@ -635,7 +635,7 @@ Description: אולפן הקלטות בתל אביב עם אווירת ניאו�
 
 ## מדיניות פרטיות
 
-URL: https://ybm-studio-689cd30c.zappy5.app/privacy
+URL: https://example.com/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -901,7 +901,7 @@ YBM Studio ("החברה", "אנו", "שלנו") מחויבת להגן על פר�
 
 ## הצהרת נגישות
 
-URL: https://ybm-studio-689cd30c.zappy5.app/accessibility
+URL: https://example.com/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -1176,7 +1176,7 @@ YBM Studio מחויבת להנגיש את השירותים לכלל הציבור
 
 ## תנאי שימוש
 
-URL: https://ybm-studio-689cd30c.zappy5.app/terms
+URL: https://example.com/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
@@ -1470,7 +1470,7 @@ YBM Studio מספקת Recording Studio דרך האתר. השירותים כפו�
 
 ## תודה - YBM Studio
 
-URL: https://ybm-studio-689cd30c.zappy5.app/thank-you
+URL: https://example.com/thank-you
 Description: YBM Studio - תודה - YBM Studio
 
 תודה - YBM Studio
