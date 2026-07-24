@@ -8,7 +8,7 @@
 
 ### בית
 https://example.com
-אולפן הקלטות בתל אביב עם אווירת ניאון ורוד-ציאן שמפיחה חיים במוזיקה שלך. ציוד מתקדם, יחס אישי וחוויית הקלטה בלתי נשכחת — בואו ליצור את הצליל הבא שלכם עוד היום.
+אולפן הקלטות בתל אביב עם אווירת ניאון ורוד-ציאן שמפיחה חיים במוזיקה שלך. ציוד מתקדם, יחס אישי וחוויית הקלטה בלתי נשכחת — הפקות מוזיקליות, עיבודים והקלטות שירה מקצועיות.
 
 ### תודה - YBM Studio
 https://example.com/thank-you
@@ -40,11 +40,11 @@ Information about WCAG compliance and accessibility features.
 - Method: POST
 - Content-Type: application/json
 - Fields:
-  - `name` (text)
-  - `email` (email)
+  - `name` (text, required)
+  - `email` (email, required)
   - `phone` (tel)
-  - `message` (textarea)
-  - `privacy_consent` (checkbox)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
 
 ---
 

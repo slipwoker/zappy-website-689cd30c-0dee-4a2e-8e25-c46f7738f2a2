@@ -68,16 +68,16 @@
   src: url('assets/fonts/Rubik-Bold.woff2') format('woff2');
 }
 :root {
-  --primary: #00F0FF;
-  --secondary: #FF2E93;
+--primary: #00F0FF;
+  --secondary: #00F0FF;
   --accent: #7B2CFF;
-  --bg-light: #F4EEFF;
+  --bg-light: #171126;
   --bg-dark: #171126;
-  --text-dark: #171126;
+  --text-dark: #6a6674;
   --text-light: #F4EEFF;
-  --text-muted: #B9A9D6;
+  --text-muted: #6f6580;
   --border-light: #D8C9F2;
-  --border-dark: #3C2A5F;
+  --border-dark: #7B2CFF;
   --nav-bg: transparent;
   --nav-text: #F4EEFF;
   --nav-text-hover: #00F0FF;
@@ -98,6 +98,13 @@
   --spacing-element-gap: 16px;
   --transition-default: all 0.3s ease;
   --transition-hover: all 0.3s ease;
+  --primary-color: #00F0FF;
+  --secondary-color: #00F0FF;
+  --accent-color: #7B2CFF;
+  --background-color: #171126;
+  --surface-color: #F4EEFF;
+  --text-color: #6a6674;
+  --text-secondary-color: #6f6580;
 }
 
 *, *::before, *::after {
@@ -2429,7 +2436,7 @@ main { flex: 1 0 auto; }
 
 .index-services-section__cta-link:hover {
   color: #FFFFFF;
-  border-bottom-color: #FF2E93;
+  border-bottom-color: #00F0FF;
   text-shadow: 0 0 20px rgba(0,240,255,0.5);
 }
 
@@ -3531,7 +3538,7 @@ main { flex: 1 0 auto; }
 
 /* Submit Button */
 .index-contact-section__submit-btn {
-  background: linear-gradient(135deg, #E91E8C 0%, #FF2D78 100%);
+  background: linear-gradient(135deg, #00CCD9 0%, #00EFFE 100%);
   color: #ffffff;
   padding: 16px 32px;
   border-radius: var(--radius-btn, 8px);
@@ -3554,7 +3561,7 @@ main { flex: 1 0 auto; }
 .index-contact-section__submit-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 16px 60px rgba(0, 0, 0, 0.7), 0 0 40px rgba(0, 212, 255, 0.15);
-  background: linear-gradient(135deg, #FF2D78 0%, #E91E8C 100%);
+  background: linear-gradient(135deg, #00EFFE 0%, #00CCD9 100%);
 }
 
 .index-contact-section__submit-btn svg {
@@ -4322,11 +4329,11 @@ nav.navbar .sub-menu li a:hover { color: #00F0FF !important; background-color: r
   --cc-modal-bg: #ffffff;
   --cc-primary-color: #1f2937;
   --cc-secondary-color: #4b5563;
-  --cc-btn-primary-bg: #00f0ff;
+  --cc-btn-primary-bg: #00F0FF;
   --cc-btn-primary-color: #ffffff;
-  --cc-btn-primary-border: #00f0ff;
-  --cc-btn-primary-hover-bg: #00d7e6;
-  --cc-btn-primary-hover-border: #00d7e6;
+  --cc-btn-primary-border: #00F0FF;
+  --cc-btn-primary-hover-bg: #FF2E93;
+  --cc-btn-primary-hover-border: #FF2E93;
   --cc-btn-primary-hover-color: #ffffff;
   /* --cc-btn-secondary-* are used by BOTH the bar's "Customize" link and
    * the preferences modal's "Accept Necessary" / "Save Preferences" pills.
@@ -4340,7 +4347,7 @@ nav.navbar .sub-menu li a:hover { color: #00F0FF !important; background-color: r
   --cc-btn-secondary-hover-bg: #e5e7eb;
   --cc-btn-secondary-hover-color: #111827;
   --cc-btn-secondary-hover-border: #d1d5db;
-  --cc-toggle-on-bg: #00f0ff;
+  --cc-toggle-on-bg: #00F0FF;
 }
 
 #cc-main,
@@ -4453,7 +4460,7 @@ nav.navbar .sub-menu li a:hover { color: #00F0FF !important; background-color: r
  * defaults for the preferences modal's two secondary pills). */
 #zappy-cookie-banner .zappy-cookie-banner__button--customize {
   background-color: transparent !important;
-  color: #00f0ff !important;
+  color: #00F0FF !important;
   border: none !important;
   padding: 0 8px !important;
   height: 32px !important;
@@ -4463,7 +4470,7 @@ nav.navbar .sub-menu li a:hover { color: #00F0FF !important; background-color: r
 }
 
 #zappy-cookie-banner .zappy-cookie-banner__button--customize:hover {
-  color: #00d7e6 !important;
+  color: #FF2E93 !important;
   background-color: transparent !important;
 }
 
@@ -4845,6 +4852,15 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 ._access-icon {
   display: flex !important;
 }
+/* === BUTTON TEXT OVERRIDES START === */
+.btn-secondary,
+.btn--secondary,
+[class*="btn-secondary"],
+[class*="btn--secondary"] { color: #333333 !important; }
+.navbar .nav-cta-btn,
+.nav-cta-btn { color: #FFFFFF !important; }
+/* === BUTTON TEXT OVERRIDES END === */
+
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
