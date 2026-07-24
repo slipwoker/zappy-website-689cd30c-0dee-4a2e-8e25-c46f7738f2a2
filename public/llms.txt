@@ -1,4 +1,4 @@
-# YBM Studio — Generative Engine Optimization Map
+# יהודה בן משה — Generative Engine Optimization Map
 
 > YBM Studio is a recording studio with a bold, vibrant identity built around neon cyan and pink tones. The brand carries an energetic, modern atmosphere that reflects creativity and sonic excellence, with a visual language inspired by neon-lit urban aesthetics — suggesting a cutting-edge space where music comes to life.
 
@@ -50,7 +50,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About YBM Studio
+## About יהודה בן משה
 YBM Studio is a recording studio with a bold, vibrant identity built around neon cyan and pink tones. The brand carries an energetic, modern atmosphere that reflects creativity and sonic excellence, with a visual language inspired by neon-lit urban aesthetics — suggesting a cutting-edge space where music comes to life.
 
 ## Target Audience
